@@ -1,0 +1,1 @@
+Keyfile is required in order to enable RBAC with `--auth`, which won't allow `test-user` to execute `db.hostInfo()`
