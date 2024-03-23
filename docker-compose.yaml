@@ -1,8 +1,5 @@
 version: '3.8'
 name: occurrent-148
-networks:
-  redpanda_network:
-    driver: bridge
 services:
   events-importer:
     deploy:
@@ -11,7 +8,6 @@ services:
     build: .
     environment:
       MONGO_CONNECTION_STRING: mongodb://test-user:pwd@mongodb:27017/test-db
-      KAFKA_BOOTSTRAP_SERVERS: 'redpanda:9092'
     depends_on:
       mongo:
         condition: service_healthy
