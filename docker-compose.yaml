@@ -12,10 +12,19 @@ services:
     environment:
       MONGO_CONNECTION_STRING: mongodb://test-user:pwd@mongodb:27017/test-db
       KAFKA_BOOTSTRAP_SERVERS: 'redpanda:9092'
+    depends_on:
+      mongo:
+        condition: service_healthy
   mongo:
     build: mongo/
     hostname: mongodb
     container_name: mongo
+    healthcheck:
+      test: mongosh mongodb:27017/test --eval 'db.runCommand("ping").ok'
+      interval: 10s
+      timeout: 10s
+      retries: 0
+      start_period: 0s
     ports:
       - "0.0.0.0:27017:27017"
     command: [
