@@ -1,0 +1,36 @@
+{
+  "name": "wdio-electron-iframe-ts",
+  "productName": "wdio-electron-iframe-ts",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.5.0",
+    "@electron-forge/maker-deb": "^7.5.0",
+    "@electron-forge/maker-rpm": "^7.5.0",
+    "@electron-forge/maker-squirrel": "^7.5.0",
+    "@electron-forge/maker-zip": "^7.5.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.5.0",
+    "@electron-forge/plugin-fuses": "^7.5.0",
+    "@electron/fuses": "^1.8.0",
+    "@wdio/cli": "^9.2.8",
+    "electron": "33.0.2"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Kirill Gavrilov",
+    "email": "gavvvr@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "packageManager": "yarn@4.5.0+sha512.837566d24eec14ec0f5f1411adb544e892b3454255e61fdef8fd05f3429480102806bac7446bc9daff3896b01ae4b62d00096c7e989f1596f2af10b927532f39",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}
