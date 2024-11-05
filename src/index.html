@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+<html class="no-js" lang="en">
+  <html>
+    <head>
+      <title>The Internet</title>
+    </head>
+
+    <body>
+      <html>
+        <head>
+          <!-- CDN hosted by Cachefly -->
+          <script
+            src="https://cdn.tiny.cloud/1/mcq6n68fc0vsuywr7nx7awf11byv91g6ihxw5okkzj8aykz6/tinymce/5/tinymce.min.js"
+            referrerpolicy="origin"
+          ></script>
+          <script>
+            tinymce.init({
+              selector: "textarea",
+              theme: "silver",
+            });
+          </script>
+        </head>
+
+        <body>
+          <div class="example">
+            <h3>An iFrame containing the TinyMCE WYSIWYG Editor</h3>
+            <textarea>Your content goes here.</textarea>
+          </div>
+        </body>
+      </html>
+    </body>
+  </html>
 </html>
