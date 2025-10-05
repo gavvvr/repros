@@ -42,6 +42,6 @@
     "@wdio/mocha-framework": "^9.20.0",
     "@wdio/spec-reporter": "^9.20.0",
     "electron": "38.2.1",
-    "wdio-electron-service": "^9.1.2"
+    "wdio-electron-service": "^8.1.1"
   }
 }

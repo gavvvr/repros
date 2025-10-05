@@ -52,8 +52,8 @@ importers:
         specifier: 38.2.1
         version: 38.2.1
       wdio-electron-service:
-        specifier: ^9.1.2
-        version: 9.1.2(electron@38.2.1)(expect-webdriverio@5.4.3)(webdriverio@9.20.0(puppeteer-core@22.15.0))
+        specifier: ^8.1.1
+        version: 8.1.1(electron@38.2.1)(expect-webdriverio@5.4.3)(webdriverio@9.20.0(puppeteer-core@22.15.0))
 
 packages:
 
@@ -749,8 +749,8 @@ packages:
   '@vscode/sudo-prompt@9.3.1':
     resolution: {integrity: sha512-9ORTwwS74VaTn38tNbQhsA5U44zkJfcb0BdTSyyG6frP4e8KMtHuTXYmwefe5dpL8XB1aGSIVTaLjD3BbWb5iA==}
 
-  '@wdio/cdp-bridge@9.1.2':
-    resolution: {integrity: sha512-GzHU/I82DEUB1S1S5dbv8i8u7R9JW9AZdolYfNwMwFbXj+ZZAD/3vHmriH476T4opg8dvi1Db0KqWjtpaI83DA==}
+  '@wdio/cdp-bridge@8.2.1':
+    resolution: {integrity: sha512-bz533FhAGwD9CzgGAHDAGdSGebVxuOTUGYDGbM0cZiR7l6Qt/hnEhbpW2cJZUGTNaEYOZgTRxrzcrQl2eZZeyQ==}
 
   '@wdio/cli@9.20.0':
     resolution: {integrity: sha512-dGkZFp09aIyoN6HlJah7zJApG/FzN0O/HaTfTkWrOM5GBli9th/9VIfbsT3vx4I9mBdETiYPmgfl4LqDP2p0VQ==}
@@ -765,11 +765,11 @@ packages:
     resolution: {integrity: sha512-lRhihDQ56dApJcKOIEkVHThl8t2e5h7f3FW3JVmMLcGgbbkkLgXqVWPpbEGJcLld3wL4CipAPojVE/YEWp80hw==}
     engines: {node: '>=18.20.0'}
 
-  '@wdio/electron-types@9.1.2':
-    resolution: {integrity: sha512-CpT6Z7irN0SWddXI2W81mXwOOINCpGTrKbLkYWoN59+l/K5JQnxmuVyJwkzPfPT+mI1HeW5U7VuSJ4iNtW3pWw==}
+  '@wdio/electron-types@8.1.1':
+    resolution: {integrity: sha512-HJnmu0prdH0yCWwV3Q7o4H/LY5z46hNmtsLOmXLcnO/K2weLEauPy8C/IGx5pki6MjWYPE/AoDzw3yryJvya/g==}
 
-  '@wdio/electron-utils@9.1.2':
-    resolution: {integrity: sha512-oOA+0tuz7bcw2Wg5jwOGItsmcj2eTM5V5g36wCL31sfSJ160r1fHYc1uJOLCvqvu/hLuJ2pX3QCt1s5Z9X1XjQ==}
+  '@wdio/electron-utils@8.1.1':
+    resolution: {integrity: sha512-rxOIEmjXD3VieUpoV1BmYL6rtOPNtPzXF89YKAWLC2FZk0o7hbnSE0uQSwo3TtZEAVN6bwdneXCmqGhqboMFJQ==}
     engines: {node: '>=18 || >=20'}
 
   '@wdio/globals@9.17.0':
@@ -3039,8 +3039,8 @@ packages:
   wcwidth@1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}
 
-  wdio-electron-service@9.1.2:
-    resolution: {integrity: sha512-TdF6mrMh6pEY4c4TvDWxF1lud0WYzGNu0xgosdX/0xgg1KmSopePlwqXfthatNSizuXquFBujqoMm3jIWtx0jA==}
+  wdio-electron-service@8.1.1:
+    resolution: {integrity: sha512-pg+wSb+bLjuslwpFPzwT54eJG5f1cJ9VBnyqlI34YE/6ejk6uJyN0bWPbAc2mhJ/pKC1p6U0GsB3h/7MnJPULw==}
     engines: {node: '>=18 || >=20'}
     peerDependencies:
       electron: '*'
@@ -4105,9 +4105,9 @@ snapshots:
 
   '@vscode/sudo-prompt@9.3.1': {}
 
-  '@wdio/cdp-bridge@9.1.2':
+  '@wdio/cdp-bridge@8.2.1':
     dependencies:
-      '@wdio/electron-utils': 9.1.2
+      '@wdio/electron-utils': 8.1.1
       wait-port: 1.1.0
       ws: 8.18.3
     transitivePeerDependencies:
@@ -4167,16 +4167,15 @@ snapshots:
       '@wdio/types': 9.20.0
       chalk: 5.6.2
 
-  '@wdio/electron-types@9.1.2':
+  '@wdio/electron-types@8.1.1':
     dependencies:
       '@vitest/spy': 3.2.4
 
-  '@wdio/electron-utils@9.1.2':
+  '@wdio/electron-utils@8.1.1':
     dependencies:
       '@electron/packager': 18.4.4
       '@wdio/logger': 9.18.0
       debug: 4.4.3(supports-color@8.1.1)
-      esbuild: 0.25.10
       find-versions: 6.0.0
       json5: 2.2.3
       read-package-up: 11.0.0
@@ -6682,13 +6681,13 @@ snapshots:
     dependencies:
       defaults: 1.0.4
 
-  wdio-electron-service@9.1.2(electron@38.2.1)(expect-webdriverio@5.4.3)(webdriverio@9.20.0(puppeteer-core@22.15.0)):
+  wdio-electron-service@8.1.1(electron@38.2.1)(expect-webdriverio@5.4.3)(webdriverio@9.20.0(puppeteer-core@22.15.0)):
     dependencies:
       '@babel/parser': 7.28.4
       '@vitest/spy': 3.2.4
-      '@wdio/cdp-bridge': 9.1.2
-      '@wdio/electron-types': 9.1.2
-      '@wdio/electron-utils': 9.1.2
+      '@wdio/cdp-bridge': 8.2.1
+      '@wdio/electron-types': 8.1.1
+      '@wdio/electron-utils': 8.1.1
       '@wdio/globals': 9.17.0(expect-webdriverio@5.4.3)(webdriverio@9.20.0(puppeteer-core@22.15.0))
       '@wdio/logger': 9.18.0
       compare-versions: 6.1.1
