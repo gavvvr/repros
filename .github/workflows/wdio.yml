@@ -1,0 +1,39 @@
+name: WDIO Tests
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit:
+        description: 'Commit SHA, branch name, or ref to checkout (e.g. refs/heads/main or a SHA)'
+        required: true
+        default: ''
+
+env:
+  FORCE_COLOR: 1
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo at provided commit
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.inputs.commit }}
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          package-manager-cache: false
+
+      - name: Versions
+        run: pnpm version && pnpm list
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run WDIO tests
+        run: pnpm run wdio
