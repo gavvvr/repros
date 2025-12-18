@@ -1,3 +1,8 @@
+import { createCoverageSummary, createCoverageMap } from 'istanbul-lib-coverage'
+
+console.log(createCoverageSummary)
+console.log(createCoverageMap)
+
 export const config: WebdriverIO.Config = {
     //
     // ====================
