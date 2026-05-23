@@ -1,0 +1,4 @@
+ARG DOCKER_HUB_MIRROR=''
+ARG NODE_VERSION=21
+FROM ${DOCKER_HUB_MIRROR}node:${NODE_VERSION}-alpine
+RUN apk upgrade --no-cache
