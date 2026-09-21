@@ -1,0 +1,23 @@
+{
+  "name": "repros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=22.12.0",
+      "onFail": "error"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "vitest": "4.1.11"
+  }
+}
