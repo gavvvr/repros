@@ -1,5 +1,7 @@
 # The `java.lang.NoSuchMethodError` error in `:subproject-with-buf:writeWorkspaceYaml` task
 
+https://stackoverflow.com/questions/78996119/
+
 ## Steps to reproduce
 
 1. Change the version of Buf plugin to v0.9.1 
