@@ -168,7 +168,7 @@ importers:
     devDependencies:
       '@wdio/cli':
         specifier: 9.32.0
-        version: 9.32.0(@types/node@26.6.2)(expect-webdriverio@6.0.10)(supports-color@8.1.1)
+        version: 9.32.0(@types/node@26.6.3)(expect-webdriverio@6.1.0)(supports-color@8.1.1)
       '@wdio/local-runner':
         specifier: 9.32.0
         version: 9.32.0(@wdio/globals@9.31.3)(supports-color@8.1.1)(webdriverio@9.32.0(supports-color@8.1.1))
@@ -550,8 +550,8 @@ packages:
   '@types/node@20.19.43':
     resolution: {integrity: sha512-6oYBAi5ikg4Pl+kGsoYtawUMBT2zZMCvPNF7pVLnHZfd1zf38DRiWn/gT01RYCdUqkv7Fhr+C9ot4/tb+2sVvA==}
 
-  '@types/node@26.6.2':
-    resolution: {integrity: sha512-X1P21scMv4zGKLYqjdGjaKa7COa0RKVYYZZN/NfvLQ1JegxFhdhpZG/Lyn8AXx6CDUavKAd11v6BvfpkDByK8g==}
+  '@types/node@26.6.3':
+    resolution: {integrity: sha512-dsqMQQoeTLqu9wynDD00q573mNzso3IdQOAfHRJqLCcmCFPoGo9A1bDpUcv/9tnKpErQWv9uKeGfl37EIS02Yg==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -565,8 +565,8 @@ packages:
   '@types/which@2.0.2':
     resolution: {integrity: sha512-113D3mDkZDjo+EeUEHCFy0qniNc1ZpecGiAU7WSo7YDoSzolZIQKpYFHrPpjkB2nuyahcKfrmLXeQlh7gqJYdw==}
 
-  '@types/ws@8.18.1':
-    resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
+  '@types/ws@8.18.2':
+    resolution: {integrity: sha512-67MQl+fpWKVTT1NYdnmo3U4sc/xPo/zQBncVnI74qmQa0z/b+1g6iYqNmGCPbxO+zz2aklb08a0oHfegiVd0/w==}
 
   '@types/yargs-parser@21.0.3':
     resolution: {integrity: sha512-I4q9QU9MQv4oEOz4tAHJtNz1cwuLxn2F3xcc2iV5WdqLPpUnj30aUuxt1mAxYTG+oe8CZMV/+6rU4S4gRDzqtQ==}
@@ -658,8 +658,8 @@ packages:
     resolution: {integrity: sha512-K1DL05PngTMKY8mkzMNYpKNqZNPTrdJheuvTeWwwYlm4Yn9hLc8V3hw6EDsuEYw4cyEyiVeukLbLOEW+AhvqVw==}
     engines: {node: '>=18.20.0'}
 
-  '@zip.js/zip.js@2.17.0':
-    resolution: {integrity: sha512-WxvSsJvlI+5v4f1gWjGfqvzOB8XkAIughO+iJUPOJR6OSpUkFauBzi1G4xS2MmK1fxHGuDAqq9Lnpq/ri7BWuw==}
+  '@zip.js/zip.js@2.18.2':
+    resolution: {integrity: sha512-J1jwg0Kv5Aab50VlVZ6hp2rzGL/J0YLjBnkF6oJoIjmpxx9+tHgjRELGKryKnDZEcGXKjv7ibwxAziFiWHdR2A==}
     engines: {bun: '>=0.7.0', deno: '>=1.0.0', node: '>=18.0.0'}
 
   abort-controller@3.0.0:
@@ -678,8 +678,8 @@ packages:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
     engines: {node: '>=8'}
 
-  ansi-regex@6.3.0:
-    resolution: {integrity: sha512-WpDfL7NO6j7tH88IDBNVdUJxDh9nmCteAVW9dsep846XdwF4naCBK+/tGLX3KJgcpgMRXCFlTM2hKGoK9FsdrQ==}
+  ansi-regex@6.4.0:
+    resolution: {integrity: sha512-KzTVk2tCWAHtYrvvvaP8bJKJq2pVinhLcGEQdtLIYPbmNGNyYe8QwNaTUYQp2J7/vIsUKt5QCqAfUkYyG9DkOw==}
     engines: {node: '>=12'}
 
   ansi-styles@4.3.0:
@@ -743,8 +743,8 @@ packages:
       bare-abort-controller:
         optional: true
 
-  bare-fs@4.8.1:
-    resolution: {integrity: sha512-N1nnXdHZAOSstz0XiHikGS4HGMH4CnSwhqWdGQQMqqdvp4Jybm9sE3R1WVnpWVd4SFkc8ryPDBLViNLwiEqECg==}
+  bare-fs@4.8.2:
+    resolution: {integrity: sha512-+ZI68KHMUvosXfKbg/UOHK0tbCdRnegbvPEdEcZ3Nd6TetieQsJPRXBRXPdLyy8+3VSEbPXtsumTpEtt78xv9w==}
     engines: {bare: '>=1.28.0'}
     peerDependencies:
       bare-buffer: '*'
@@ -1083,8 +1083,8 @@ packages:
     resolution: {integrity: sha512-Fqs7ChZm72y40wKjOFXBKg7nJZvQJmewP5/7LtePDdnah/+FH9Hp5sgMujSCMPXlxOAW2//1jrW9pnsY7o20vQ==}
     engines: {node: '>=18'}
 
-  expect-webdriverio@6.0.10:
-    resolution: {integrity: sha512-VBaMl4U6orgn3uzM7n65Gd48legqi37GoP0mklR+3f7vs/cC1s4hQVmGoiqz9aBcISVF37dAynP3aoi0R0CDow==}
+  expect-webdriverio@6.1.0:
+    resolution: {integrity: sha512-RXgaXoH1U8IiAHPelkMhZSnWUT0HfIhkjKK8nBkIpnXRO+zJ8dRafoyZhVy5mu/LtoyIr9juRWRwN284OSNM6Q==}
     engines: {node: '>=20'}
     peerDependencies:
       '@wdio/globals': ^9.0.0
@@ -1848,12 +1848,12 @@ packages:
   undici-types@8.9.0:
     resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
-  undici@6.28.1:
-    resolution: {integrity: sha512-zWpdTVD54H48CIybL0rWQ3ukpb9d23wM7eH5RtfdmeP70cWHNjtfo7P4vZX+5CoDcO53J4Pu5uXp7lNfjc6DRA==}
+  undici@6.29.0:
+    resolution: {integrity: sha512-R+RODBqp6i2pPflGdq+xIOUkl+RNfGgHwoinecKu/JCuf2uO06cOKoDbI2P7Dn6KcswdKwrczbU6IYJ6K8X+wg==}
     engines: {node: '>=18.17'}
 
-  undici@7.29.1:
-    resolution: {integrity: sha512-RYONW2MeafgYlkVOKYKkA/Ag7BmXqgIWCa8t1m0JcxrQg9pI9lEqRhAOruOBCbAohOa/gkCF+iPi9hrgvTzu6Q==}
+  undici@7.30.0:
+    resolution: {integrity: sha512-dkrQXeHSaoamnItlYbmzG0wFYrM0ZwDxCIg0A7aKjTyyhh9svRzCNFEzV+Vm05/yehjCzjDZ31KXfGEjYSztDQ==}
     engines: {node: '>=20.18.1'}
 
   unicorn-magic@0.3.0:
@@ -1931,8 +1931,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.21.3:
-    resolution: {integrity: sha512-201TZ/kPWxoPr/OKWjquZR1SWKXcvxdH+e1xrx89b3YbmzLMFCLfnaG1HFIgWzJOEWZ7MvpK++odZufgYR50Rw==}
+  ws@8.22.0:
+    resolution: {integrity: sha512-Ydggc987+RO0AnWtZ/7Wq9FtNvcrL1b/RO0ud9mWjUPgDrsAAwQSF51sm2hm1XofbU/4jkpGEsLFsZZxU+1DOg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -2080,128 +2080,128 @@ snapshots:
 
   '@inquirer/ansi@1.0.2': {}
 
-  '@inquirer/checkbox@4.3.2(@types/node@26.6.2)':
+  '@inquirer/checkbox@4.3.2(@types/node@26.6.3)':
     dependencies:
       '@inquirer/ansi': 1.0.2
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
       '@inquirer/figures': 1.0.15
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
       yoctocolors-cjs: 2.1.3
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
-  '@inquirer/confirm@5.1.21(@types/node@26.6.2)':
+  '@inquirer/confirm@5.1.21(@types/node@26.6.3)':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
-  '@inquirer/core@10.3.2(@types/node@26.6.2)':
+  '@inquirer/core@10.3.2(@types/node@26.6.3)':
     dependencies:
       '@inquirer/ansi': 1.0.2
       '@inquirer/figures': 1.0.15
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
       cli-width: 4.1.0
       mute-stream: 2.0.0
       signal-exit: 4.1.0
       wrap-ansi: 6.2.0
       yoctocolors-cjs: 2.1.3
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
-  '@inquirer/editor@4.2.23(@types/node@26.6.2)':
+  '@inquirer/editor@4.2.23(@types/node@26.6.3)':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/external-editor': 1.0.3(@types/node@26.6.2)
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/external-editor': 1.0.3(@types/node@26.6.3)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
-  '@inquirer/expand@4.0.23(@types/node@26.6.2)':
+  '@inquirer/expand@4.0.23(@types/node@26.6.3)':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
       yoctocolors-cjs: 2.1.3
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
-  '@inquirer/external-editor@1.0.3(@types/node@26.6.2)':
+  '@inquirer/external-editor@1.0.3(@types/node@26.6.3)':
     dependencies:
       chardet: 2.2.0
       iconv-lite: 0.7.3
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
   '@inquirer/figures@1.0.15': {}
 
-  '@inquirer/input@4.3.1(@types/node@26.6.2)':
+  '@inquirer/input@4.3.1(@types/node@26.6.3)':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
-  '@inquirer/number@3.0.23(@types/node@26.6.2)':
+  '@inquirer/number@3.0.23(@types/node@26.6.3)':
     dependencies:
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
-  '@inquirer/password@4.0.23(@types/node@26.6.2)':
-    dependencies:
-      '@inquirer/ansi': 1.0.2
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
-    optionalDependencies:
-      '@types/node': 26.6.2
-
-  '@inquirer/prompts@7.10.1(@types/node@26.6.2)':
-    dependencies:
-      '@inquirer/checkbox': 4.3.2(@types/node@26.6.2)
-      '@inquirer/confirm': 5.1.21(@types/node@26.6.2)
-      '@inquirer/editor': 4.2.23(@types/node@26.6.2)
-      '@inquirer/expand': 4.0.23(@types/node@26.6.2)
-      '@inquirer/input': 4.3.1(@types/node@26.6.2)
-      '@inquirer/number': 3.0.23(@types/node@26.6.2)
-      '@inquirer/password': 4.0.23(@types/node@26.6.2)
-      '@inquirer/rawlist': 4.1.11(@types/node@26.6.2)
-      '@inquirer/search': 3.2.2(@types/node@26.6.2)
-      '@inquirer/select': 4.4.2(@types/node@26.6.2)
-    optionalDependencies:
-      '@types/node': 26.6.2
-
-  '@inquirer/rawlist@4.1.11(@types/node@26.6.2)':
-    dependencies:
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
-      yoctocolors-cjs: 2.1.3
-    optionalDependencies:
-      '@types/node': 26.6.2
-
-  '@inquirer/search@3.2.2(@types/node@26.6.2)':
-    dependencies:
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/figures': 1.0.15
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
-      yoctocolors-cjs: 2.1.3
-    optionalDependencies:
-      '@types/node': 26.6.2
-
-  '@inquirer/select@4.4.2(@types/node@26.6.2)':
+  '@inquirer/password@4.0.23(@types/node@26.6.3)':
     dependencies:
       '@inquirer/ansi': 1.0.2
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/figures': 1.0.15
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
+    optionalDependencies:
+      '@types/node': 26.6.3
+
+  '@inquirer/prompts@7.10.1(@types/node@26.6.3)':
+    dependencies:
+      '@inquirer/checkbox': 4.3.2(@types/node@26.6.3)
+      '@inquirer/confirm': 5.1.21(@types/node@26.6.3)
+      '@inquirer/editor': 4.2.23(@types/node@26.6.3)
+      '@inquirer/expand': 4.0.23(@types/node@26.6.3)
+      '@inquirer/input': 4.3.1(@types/node@26.6.3)
+      '@inquirer/number': 3.0.23(@types/node@26.6.3)
+      '@inquirer/password': 4.0.23(@types/node@26.6.3)
+      '@inquirer/rawlist': 4.1.11(@types/node@26.6.3)
+      '@inquirer/search': 3.2.2(@types/node@26.6.3)
+      '@inquirer/select': 4.4.2(@types/node@26.6.3)
+    optionalDependencies:
+      '@types/node': 26.6.3
+
+  '@inquirer/rawlist@4.1.11(@types/node@26.6.3)':
+    dependencies:
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
       yoctocolors-cjs: 2.1.3
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
-  '@inquirer/type@3.0.10(@types/node@26.6.2)':
+  '@inquirer/search@3.2.2(@types/node@26.6.3)':
+    dependencies:
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/figures': 1.0.15
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
+      yoctocolors-cjs: 2.1.3
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
+
+  '@inquirer/select@4.4.2(@types/node@26.6.3)':
+    dependencies:
+      '@inquirer/ansi': 1.0.2
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/figures': 1.0.15
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
+      yoctocolors-cjs: 2.1.3
+    optionalDependencies:
+      '@types/node': 26.6.3
+
+  '@inquirer/type@3.0.10(@types/node@26.6.3)':
+    optionalDependencies:
+      '@types/node': 26.6.3
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -2287,7 +2287,7 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/node@26.6.2':
+  '@types/node@26.6.3':
     dependencies:
       undici-types: 8.9.0
     optional: true
@@ -2300,7 +2300,7 @@ snapshots:
 
   '@types/which@2.0.2': {}
 
-  '@types/ws@8.18.1':
+  '@types/ws@8.18.2':
     dependencies:
       '@types/node': 20.19.43
 
@@ -2312,7 +2312,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
     optional: true
 
   '@vitest/pretty-format@3.2.7':
@@ -2342,11 +2342,11 @@ snapshots:
       convert-source-map: 2.0.0
       tinyrainbow: 3.1.1
 
-  '@wdio/cli@9.32.0(@types/node@26.6.2)(expect-webdriverio@6.0.10)(supports-color@8.1.1)':
+  '@wdio/cli@9.32.0(@types/node@26.6.3)(expect-webdriverio@6.1.0)(supports-color@8.1.1)':
     dependencies:
       '@vitest/snapshot': 3.2.7
       '@wdio/config': 9.32.0(supports-color@8.1.1)
-      '@wdio/globals': 9.31.3(expect-webdriverio@6.0.10)(webdriverio@9.32.0(supports-color@8.1.1))
+      '@wdio/globals': 9.31.3(expect-webdriverio@6.1.0)(webdriverio@9.32.0(supports-color@8.1.1))
       '@wdio/logger': 9.29.1
       '@wdio/protocols': 9.31.5
       '@wdio/types': 9.32.0
@@ -2354,7 +2354,7 @@ snapshots:
       async-exit-hook: 2.0.1
       chalk: 5.6.2
       chokidar: 4.0.3
-      create-wdio: 9.32.0(@types/node@26.6.2)
+      create-wdio: 9.32.0(@types/node@26.6.3)
       dotenv: 17.4.2
       import-meta-resolve: 4.2.0
       lodash.flattendeep: 4.4.0
@@ -2396,9 +2396,9 @@ snapshots:
       '@wdio/types': 9.32.0
       chalk: 5.6.2
 
-  '@wdio/globals@9.31.3(expect-webdriverio@6.0.10)(webdriverio@9.32.0(supports-color@8.1.1))':
+  '@wdio/globals@9.31.3(expect-webdriverio@6.1.0)(webdriverio@9.32.0(supports-color@8.1.1))':
     dependencies:
-      expect-webdriverio: 6.0.10(@wdio/globals@9.31.3)(@wdio/logger@9.29.1)(webdriverio@9.32.0(supports-color@8.1.1))
+      expect-webdriverio: 6.1.0(@wdio/globals@9.31.3)(@wdio/logger@9.29.1)(webdriverio@9.32.0(supports-color@8.1.1))
       webdriverio: 9.32.0(supports-color@8.1.1)
 
   '@wdio/local-runner@9.32.0(@wdio/globals@9.31.3)(supports-color@8.1.1)(webdriverio@9.32.0(supports-color@8.1.1))':
@@ -2406,11 +2406,11 @@ snapshots:
       '@types/node': 20.19.43
       '@wdio/logger': 9.29.1
       '@wdio/repl': 9.16.2
-      '@wdio/runner': 9.32.0(expect-webdriverio@6.0.10)(supports-color@8.1.1)(webdriverio@9.32.0(supports-color@8.1.1))
+      '@wdio/runner': 9.32.0(expect-webdriverio@6.1.0)(supports-color@8.1.1)(webdriverio@9.32.0(supports-color@8.1.1))
       '@wdio/types': 9.32.0
       '@wdio/xvfb': 9.32.0
       exit-hook: 4.0.0
-      expect-webdriverio: 6.0.10(@wdio/globals@9.31.3)(@wdio/logger@9.29.1)(webdriverio@9.32.0(supports-color@8.1.1))
+      expect-webdriverio: 6.1.0(@wdio/globals@9.31.3)(@wdio/logger@9.29.1)(webdriverio@9.32.0(supports-color@8.1.1))
       split2: 4.2.0
       stream-buffers: 3.0.3
     transitivePeerDependencies:
@@ -2459,17 +2459,17 @@ snapshots:
       diff: 8.0.4
       object-inspect: 1.13.4
 
-  '@wdio/runner@9.32.0(expect-webdriverio@6.0.10)(supports-color@8.1.1)(webdriverio@9.32.0(supports-color@8.1.1))':
+  '@wdio/runner@9.32.0(expect-webdriverio@6.1.0)(supports-color@8.1.1)(webdriverio@9.32.0(supports-color@8.1.1))':
     dependencies:
       '@types/node': 20.19.43
       '@wdio/config': 9.32.0(supports-color@8.1.1)
       '@wdio/dot-reporter': 9.32.0
-      '@wdio/globals': 9.31.3(expect-webdriverio@6.0.10)(webdriverio@9.32.0(supports-color@8.1.1))
+      '@wdio/globals': 9.31.3(expect-webdriverio@6.1.0)(webdriverio@9.32.0(supports-color@8.1.1))
       '@wdio/logger': 9.29.1
       '@wdio/types': 9.32.0
       '@wdio/utils': 9.32.0(supports-color@8.1.1)
       deepmerge-ts: 8.0.2
-      expect-webdriverio: 6.0.10(@wdio/globals@9.31.3)(@wdio/logger@9.29.1)(webdriverio@9.32.0(supports-color@8.1.1))
+      expect-webdriverio: 6.1.0(@wdio/globals@9.31.3)(@wdio/logger@9.29.1)(webdriverio@9.32.0(supports-color@8.1.1))
       webdriver: 9.32.0(supports-color@8.1.1)
       webdriverio: 9.32.0(supports-color@8.1.1)
     transitivePeerDependencies:
@@ -2518,7 +2518,7 @@ snapshots:
     dependencies:
       '@wdio/logger': 9.29.1
 
-  '@zip.js/zip.js@2.17.0': {}
+  '@zip.js/zip.js@2.18.2': {}
 
   abort-controller@3.0.0:
     dependencies:
@@ -2530,7 +2530,7 @@ snapshots:
 
   ansi-regex@5.0.1: {}
 
-  ansi-regex@6.3.0: {}
+  ansi-regex@6.4.0: {}
 
   ansi-styles@4.3.0:
     dependencies:
@@ -2581,7 +2581,7 @@ snapshots:
 
   bare-events@2.9.2: {}
 
-  bare-fs@4.8.1:
+  bare-fs@4.8.2:
     dependencies:
       bare-events: 2.9.2
       bare-path: 3.1.2
@@ -2675,7 +2675,7 @@ snapshots:
       parse5: 7.3.0
       parse5-htmlparser2-tree-adapter: 7.1.0
       parse5-parser-stream: 7.1.2
-      undici: 7.29.1
+      undici: 7.30.0
       whatwg-mimetype: 4.0.0
 
   chokidar@3.6.0:
@@ -2744,7 +2744,7 @@ snapshots:
       crc-32: 1.2.2
       readable-stream: 4.7.0
 
-  create-wdio@9.32.0(@types/node@26.6.2):
+  create-wdio@9.32.0(@types/node@26.6.3):
     dependencies:
       chalk: 5.6.2
       commander: 14.0.3
@@ -2752,7 +2752,7 @@ snapshots:
       ejs: 3.1.10
       execa: 9.6.1
       import-meta-resolve: 4.2.0
-      inquirer: 12.11.1(@types/node@26.6.2)
+      inquirer: 12.11.1(@types/node@26.6.3)
       normalize-package-data: 7.0.1
       read-pkg-up: 10.1.0
       recursive-readdir: 2.2.3
@@ -2849,7 +2849,7 @@ snapshots:
   edgedriver@6.3.1(supports-color@8.1.1):
     dependencies:
       '@wdio/logger': 9.29.1
-      '@zip.js/zip.js': 2.17.0
+      '@zip.js/zip.js': 2.18.2
       decamelize: 6.0.1
       edge-paths: 3.0.5
       http-proxy-agent: 7.0.2(supports-color@8.1.1)
@@ -2961,10 +2961,10 @@ snapshots:
 
   exit-hook@4.0.0: {}
 
-  expect-webdriverio@6.0.10(@wdio/globals@9.31.3)(@wdio/logger@9.29.1)(webdriverio@9.32.0(supports-color@8.1.1)):
+  expect-webdriverio@6.1.0(@wdio/globals@9.31.3)(@wdio/logger@9.29.1)(webdriverio@9.32.0(supports-color@8.1.1)):
     dependencies:
       '@vitest/snapshot': 4.1.11
-      '@wdio/globals': 9.31.3(expect-webdriverio@6.0.10)(webdriverio@9.32.0(supports-color@8.1.1))
+      '@wdio/globals': 9.31.3(expect-webdriverio@6.1.0)(webdriverio@9.32.0(supports-color@8.1.1))
       '@wdio/logger': 9.29.1
       deep-eql: 5.0.2
       expect: 30.5.2
@@ -3035,7 +3035,7 @@ snapshots:
   geckodriver@6.1.1(supports-color@8.1.1):
     dependencies:
       '@wdio/logger': 9.29.1
-      '@zip.js/zip.js': 2.17.0
+      '@zip.js/zip.js': 2.18.2
       decamelize: 6.0.1
       http-proxy-agent: 7.0.2(supports-color@8.1.1)
       https-proxy-agent: 7.0.6(supports-color@8.1.1)
@@ -3147,17 +3147,17 @@ snapshots:
 
   inherits@2.0.4: {}
 
-  inquirer@12.11.1(@types/node@26.6.2):
+  inquirer@12.11.1(@types/node@26.6.3):
     dependencies:
       '@inquirer/ansi': 1.0.2
-      '@inquirer/core': 10.3.2(@types/node@26.6.2)
-      '@inquirer/prompts': 7.10.1(@types/node@26.6.2)
-      '@inquirer/type': 3.0.10(@types/node@26.6.2)
+      '@inquirer/core': 10.3.2(@types/node@26.6.3)
+      '@inquirer/prompts': 7.10.1(@types/node@26.6.3)
+      '@inquirer/type': 3.0.10(@types/node@26.6.3)
       mute-stream: 2.0.0
       run-async: 4.0.6
       rxjs: 7.8.2
     optionalDependencies:
-      '@types/node': 26.6.2
+      '@types/node': 26.6.3
 
   ip-address@10.7.2: {}
 
@@ -3701,7 +3701,7 @@ snapshots:
 
   strip-ansi@7.2.0:
     dependencies:
-      ansi-regex: 6.3.0
+      ansi-regex: 6.4.0
 
   strip-final-newline@4.0.0: {}
 
@@ -3720,7 +3720,7 @@ snapshots:
       pump: 3.0.4
       tar-stream: 3.2.1
     optionalDependencies:
-      bare-fs: 4.8.1
+      bare-fs: 4.8.2
       bare-path: 3.1.2
     transitivePeerDependencies:
       - bare-abort-controller
@@ -3730,7 +3730,7 @@ snapshots:
   tar-stream@3.2.1:
     dependencies:
       b4a: 1.9.0
-      bare-fs: 4.8.1
+      bare-fs: 4.8.2
       fast-fifo: 1.3.2
       streamx: 2.28.1
     transitivePeerDependencies:
@@ -3778,9 +3778,9 @@ snapshots:
   undici-types@8.9.0:
     optional: true
 
-  undici@6.28.1: {}
+  undici@6.29.0: {}
 
-  undici@7.29.1: {}
+  undici@7.30.0: {}
 
   unicorn-magic@0.3.0: {}
 
@@ -3811,7 +3811,7 @@ snapshots:
   webdriver@9.32.0(supports-color@8.1.1):
     dependencies:
       '@types/node': 20.19.43
-      '@types/ws': 8.18.1
+      '@types/ws': 8.18.2
       '@wdio/config': 9.32.0(supports-color@8.1.1)
       '@wdio/logger': 9.29.1
       '@wdio/protocols': 9.31.5
@@ -3819,8 +3819,8 @@ snapshots:
       '@wdio/utils': 9.32.0(supports-color@8.1.1)
       deepmerge-ts: 8.0.2
       https-proxy-agent: 7.0.6(supports-color@8.1.1)
-      undici: 6.28.1
-      ws: 8.21.3
+      undici: 6.29.0
+      ws: 8.22.0
     transitivePeerDependencies:
       - bare-abort-controller
       - bare-buffer
@@ -3900,7 +3900,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.21.3: {}
+  ws@8.22.0: {}
 
   y18n@5.0.8: {}
 
