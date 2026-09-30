@@ -1,0 +1,29 @@
+name: wdio-15608
+
+on:
+  push:
+    branches:
+      - 'wdio-15608'
+
+env:
+  FORCE_COLOR: 1
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [ 24, 26 ]
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+      - name: Install pnpm
+        uses: pnpm/setup@v3
+        with:
+          install: true
+          runtime: node@${{ matrix.node }}
+      - name: Environment details
+        run: pnpm dlx envinfo --system --binaries
+      - name: Run WDIO
+        run: pnpm exec wdio
