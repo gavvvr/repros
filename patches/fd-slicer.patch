@@ -1,0 +1,53 @@
+diff --git a/index.js b/index.js
+index 65d32a3ecb7d22329f5465cb2ef127f70e54be43..3ba9775caf4fb294c4d0a9ad0b69397ee020a987 100644
+--- a/index.js
++++ b/index.js
+@@ -88,18 +88,19 @@ function ReadStream(context, options) {
+   this.endOffset = options.end;
+   this.pos = this.start;
+   this.destroyed = false;
++  this._eofPushed = false;
+ }
+ 
+ ReadStream.prototype._read = function(n) {
+   var self = this;
+-  if (self.destroyed) return;
++  if (self.destroyed || self._eofPushed) return;
+ 
+   var toRead = Math.min(self._readableState.highWaterMark, n);
+   if (self.endOffset != null) {
+     toRead = Math.min(toRead, self.endOffset - self.pos);
+   }
+   if (toRead <= 0) {
+-    self.destroyed = true;
++    self._eofPushed = true;
+     self.push(null);
+     self.context.unref();
+     return;
+@@ -111,7 +112,7 @@ ReadStream.prototype._read = function(n) {
+       if (err) {
+         self.destroy(err);
+       } else if (bytesRead === 0) {
+-        self.destroyed = true;
++        self._eofPushed = true;
+         self.push(null);
+         self.context.unref();
+       } else {
+@@ -124,7 +125,7 @@ ReadStream.prototype._read = function(n) {
+ };
+ 
+ ReadStream.prototype.destroy = function(err) {
+-  if (this.destroyed) return;
++  if (this.destroyed || this._eofPushed) return;
+   err = err || new Error("stream destroyed");
+   this.destroyed = true;
+   this.emit('error', err);
+@@ -160,7 +161,7 @@ WriteStream.prototype._write = function(buffer, encoding, callback) {
+     return;
+   }
+   self.context.pend.go(function(cb) {
+-    if (self.destroyed) return cb();
++    if (self.destroyed || self._eofPushed) return cb();
+     fs.write(self.context.fd, buffer, 0, buffer.length, self.pos, function(err, bytes) {
+       if (err) {
+         self.destroy();

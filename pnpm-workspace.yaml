@@ -2,3 +2,5 @@ allowBuilds:
   edgedriver: false
   esbuild: false
   geckodriver: false
+patchedDependencies:
+  fd-slicer: patches/fd-slicer.patch
